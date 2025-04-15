@@ -22,8 +22,8 @@ The choice of peristaltic pumps for nutrient and pH delivery provides accurate d
 
 LED grow lights are scheduled to mimic day/night cycles and tuned to plant needs, providing efficient energy use. The cabinet ensures neat housing and minimizes external light interference or heat loss. 
 
-![Final Design](/Project-VertiFarm/Process/Photos/finalDesign1.jpg)
-![Final Design](/Project-VertiFarm/Process/Photos/finalDesign2.jpg)<br><br><br>
+![Final Design](/Process/Photos/finalDesign1.jpg)
+![Final Design](/Process/Photos/finalDesign2.jpg)<br><br><br>
 
 ## System Architecture
 
