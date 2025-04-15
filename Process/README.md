@@ -51,7 +51,7 @@ This project creates a smart vertical farming solution for indoor environments, 
 
 ## 3. Setting Up HomeAssistant on Raspberry Pi
 
-1. Flash HomeAssistant OS to SD card using Balena Etcher.
+1. Flash HomeAssistant OS to SD card using Raspberry Pi Imager.
 2. Insert SD card into Raspberry Pi and boot.
 3. Follow setup via `http://homeassistant.local:8123`.
 4. Update system and install required integrations.
@@ -73,24 +73,24 @@ Used CAD software (Fusion 360 and AutoCAD) to design:
 - Plant holders to adjust plant angle in the platform.
 - Pipe covers to hold water hosing in place.
 
-Export STL/STEP files and print using PLA/ABS. [See 3D print files](https://github.com/eeturunonen/Project-VertiFarm/Process/3D_Prints)<br><br>
+Export STL/STEP files and print using PLA/ABS. [See 3D print files](/Project-VertiFarm/Process/3D_Prints)<br><br>
 !! Note PLA might not be the best option due it's water resistance!!
 
-![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/pipeCover.png "Pipe Cover")
-![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/plantHolderImg.png "Plant Holder")
+![Pipe Cover](/Process/Photos/pipeCover.png)
+![Plant Holder](/Process/Photos/plantHolderImg.png)
 
 ### Customized parts
 1. For water pump I had to create small modifications:
     - Heat the hosing connection point slightly larger to fit pneumatic adapter.
     - Glue the adapter in place with super glue/epoxy to ensure strong joing. Alternatively you can create threads and use the adapter as a "bolt".
 
-    ![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/pumpAdapter1.png "Water Pump modification")
-    ![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/pumpAdapter2.png "Water Pump modification")
+    ![Water Pump modification](/Process/Photos/pumpAdapter1.png)
+    ![Water Pump modification](/Process/Photos/pumpAdapter2.png)
 
 2. For plant platform I used ventilation ducts to channel water flow. This needed some adjustments as drilling holes for plant pots.
 
-    ![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/ventilationDucts.jpg "Ventilation ducts, planting platform")
-    ![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/installedPlatforms.jpg "Installed platform in the design")
+    ![Ventilation ducts, planting platform](/Process/Photos/ventilationDucts.jpg)
+    ![Installed platform in the design](/Process/Photos/installedPlatforms.jpg)
 
 
 ## 6. Connecting Sensors
@@ -131,7 +131,7 @@ files and then flashed the firmware to the board. After first flash, ESPHome int
 3. Create YAML configurations for each sensor/actuator.
 4. Apply sensors to the system.
 
-![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/ESPcontrol.jpg "Encapsulated ESP32 units")
+![Encapsulated ESP32 units](/Process/Photos/ESPcontrol.jpg)
 
 An example of YAML configuration:
 
