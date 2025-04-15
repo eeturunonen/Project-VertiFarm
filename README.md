@@ -20,7 +20,10 @@ Using HomeAssistant as the central brain ensures smooth automation logic without
 
 The choice of peristaltic pumps for nutrient and pH delivery provides accurate dosing, crucial for maintaining optimal plant health. Water level sensing using ultrasonic modules prevents dry-run scenarios for pumps, and the submersible pump circulates nutrient-rich water through the channels for plant uptake.
 
-LED grow lights are scheduled to mimic day/night cycles and tuned to plant needs, providing efficient energy use. The cabinet ensures neat housing and minimizes external light interference or heat loss. <br><br><br>
+LED grow lights are scheduled to mimic day/night cycles and tuned to plant needs, providing efficient energy use. The cabinet ensures neat housing and minimizes external light interference or heat loss. 
+
+![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/finalDesign1.jpg "Final Design")
+![Alt text](https://github.com/eeturunonen/Project-VertiFarm/Process/Photos/finalDesign2.jpg "Final Design")<br><br><br>
 
 ## System Architecture
 
