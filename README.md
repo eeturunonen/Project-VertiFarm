@@ -40,7 +40,7 @@ LED grow lights are scheduled to mimic day/night cycles and tuned to plant needs
 
 ```mermaid 
 flowchart TD
-  subgraph ESP32_1["Sensor Node (ESPHome)"]
+  subgraph ESP32_1["ESP32 Node 1 (ESPHome)"]
     direction LR
       DHT22(["DHT22 Sensor"])
       DHT11(["DHT11 Sensor"])
@@ -50,7 +50,7 @@ flowchart TD
     direction LR
       TDS(["TDS Sensor"])
   end
-  subgraph ESP32_3["Relay Control (ESPHome)"]
+  subgraph ESP32_3["ESP32 Node 3 (ESPHome)"]
     Relay(["Relay Module<br>(WPM400)"])
     MainPump(["Main Pump"])
     NutrientPump(["Nutrient Pump"])
